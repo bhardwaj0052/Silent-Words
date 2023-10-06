@@ -1,9 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradiant2"
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
+    <Button
+        android:id="@+id/l1"
+        android:paddingHorizontal="65dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect"
+        android:text="@string/love"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/o1"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:paddingHorizontal="34.9dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect"
+        android:text="@string/one_sided"
+        android:textStyle="italic"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect"
+        android:layout_marginTop="15sp"
+        android:text="@string/heart_broken"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:paddingHorizontal="20sp"
+        />
+    <Button
+        android:id="@+id/g1"
+        android:backgroundTint="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle2"
+        android:layout_marginTop="15sp"
+        android:text="@string/go_back"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:paddingHorizontal="20sp"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

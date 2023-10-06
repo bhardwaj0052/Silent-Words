@@ -3,4 +3,8 @@
     <string name="start">Start</string>
     <string name="exit">Exit</string>
     <string name="todo">TODO</string>
+    <string name="love">Love ♥ </string>
+    <string name="one_sided">One-Sided 🤍 </string>
+    <string name="heart_broken">Heart-Broken 💔 </string>
+    <string name="go_back">Go back</string>
 </resources>
