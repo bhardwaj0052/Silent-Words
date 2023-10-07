@@ -18,7 +18,7 @@
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="30sp"
-        android:textStyle="italic"
+        android:textStyle="bold"
         />
     <Button
         android:paddingHorizontal="18dp"
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:text="@string/exit"
         android:textColor="@color/white"
-        android:textStyle="italic"
+        android:textStyle="bold"
         android:textSize="25sp"
         android:background="@drawable/rectangle2"
         android:textAllCaps="false"

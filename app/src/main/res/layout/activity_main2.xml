@@ -14,13 +14,15 @@
         android:layout_height="wrap_content"
         android:background="@drawable/rect"
         android:text="@string/love"
+        android:drawablePadding="25sp"
         android:textAllCaps="false"
         android:textSize="25sp"
-        android:textStyle="italic"
+        android:textStyle="normal"
         android:textColor="@color/white"/>
     <Button
         android:id="@+id/o1"
         android:textSize="25sp"
+        android:drawablePadding="25sp"
         android:textColor="@color/white"
         android:paddingHorizontal="34.9dp"
         android:layout_width="wrap_content"
@@ -28,10 +30,11 @@
         android:layout_height="wrap_content"
         android:background="@drawable/rect"
         android:text="@string/one_sided"
-        android:textStyle="italic"
+        android:textStyle="normal"
         android:textAllCaps="false"/>
     <Button
         android:id="@+id/h1"
+        android:drawablePadding="25sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/rect"
@@ -39,7 +42,7 @@
         android:text="@string/heart_broken"
         android:textAllCaps="false"
         android:textSize="25sp"
-        android:textStyle="italic"
+        android:textStyle="normal"
         android:textColor="@color/white"
         android:paddingHorizontal="20sp"
         />
@@ -53,7 +56,7 @@
         android:text="@string/go_back"
         android:textAllCaps="false"
         android:textSize="25sp"
-        android:textStyle="italic"
+        android:textStyle="bold"
         android:textColor="@color/white"
         android:paddingHorizontal="20sp"
         />

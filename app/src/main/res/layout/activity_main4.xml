@@ -1,9 +1,199 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8sp"
+    android:paddingRight="8sp"
+    android:background="@drawable/grad2"
     android:layout_height="match_parent"
     tools:context=".MainActivity4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="50sp"
+        android:layout_marginTop="5dp">
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle2"
+            android:backgroundTint="@color/black"
+            android:text="@string/go_back1"
+            android:layout_marginBottom="10sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingHorizontal="20sp"
+            />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_marginBottom="10sp"
+            android:paddingVertical="8sp"
+            android:paddingHorizontal="30sp"
+            android:background="@drawable/rect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_1_n_n_n"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_marginBottom="10sp"
+            android:paddingVertical="8sp"
+            android:paddingHorizontal="30sp"
+            android:background="@drawable/rect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_2_n_n"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_marginBottom="10sp"
+            android:paddingVertical="8sp"
+            android:paddingHorizontal="30sp"
+            android:background="@drawable/rect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_3_n1"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_marginBottom="10sp"
+            android:paddingVertical="8sp"
+            android:paddingHorizontal="30sp"
+            android:background="@drawable/rect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_4_n1"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_marginBottom="10sp"
+            android:paddingVertical="8sp"
+            android:paddingHorizontal="30sp"
+            android:background="@drawable/rect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_5_n1"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_marginBottom="10sp"
+            android:paddingVertical="8sp"
+            android:paddingHorizontal="30sp"
+            android:background="@drawable/rect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_6_n1"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_marginBottom="10sp"
+            android:paddingVertical="8sp"
+            android:paddingHorizontal="30sp"
+            android:background="@drawable/rect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_7_n1"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_marginBottom="10sp"
+            android:paddingVertical="8sp"
+            android:paddingHorizontal="30sp"
+            android:background="@drawable/rect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_8_n_n1"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_marginBottom="10sp"
+            android:paddingVertical="8sp"
+            android:paddingHorizontal="30sp"
+            android:background="@drawable/rect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_9_n_n1"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_marginBottom="10sp"
+            android:paddingVertical="8sp"
+            android:paddingHorizontal="30sp"
+            android:background="@drawable/rect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_10_n1"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_marginBottom="10sp"
+            android:paddingVertical="8sp"
+            android:paddingHorizontal="30sp"
+            android:background="@drawable/rect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_11_n1"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_marginBottom="10sp"
+            android:paddingVertical="8sp"
+            android:paddingHorizontal="30sp"
+            android:background="@drawable/rect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_12_n_n1"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_marginBottom="10sp"
+            android:paddingVertical="8sp"
+            android:paddingHorizontal="30sp"
+            android:background="@drawable/rect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_13_n1"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_marginBottom="10sp"
+            android:paddingVertical="8sp"
+            android:paddingHorizontal="30sp"
+            android:background="@drawable/rect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_14_n1"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_marginBottom="10sp"
+            android:paddingVertical="8sp"
+            android:paddingHorizontal="30sp"
+            android:background="@drawable/rect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_15_n1"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</ScrollView>
